@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Lora:ital,wght@1,500&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
+ 
+:root{
+    /* --main-bg-color:rgb(201, 13, 107); */
+    --main-bg-color:rgb(167, 96, 4);
+    --coffee-color: rgb(51, 50, 38);
+    --blues: rgb(1, 42, 63);
+    --sky:	#0361cc22;
+    /* --sky2:		#3259da3a; */
+    /* --sky2:		#f884846f; */
+    --sky2:		#50a9bac4;
+    /* --sky2:		#5c8ba8c2; */
+    --aesthetic: #fbfae5;
+    --aesthetic2: #50a9bac4;
+    --test: #2a4674;
+    --test: #84caed;
+    --font1: 'Baloo 2', serif;
+    --font2:  'Roboto', sans-serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width-1{
+    max-width: 100vw;
+}
+
+td{
+    min-width: 40vw;
+    max-width: 40vw;
+
+    margin-bottom: 10px;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+     
+}
+
+.btn{
+    font-family: var(--font1);
+    font-size: 18px; 
+    padding: 0px 15px;
+    border: 2px solid var(--coffee-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+
+.btn:hover{
+    color:rgba(8, 53, 136, 0.692);
+    background-color: var(--aesthetic);
+    font-weight: bolder;
+    text-shadow: 0 5px 30px rgba(0, 0, 0, 0.8);
+} 
+
+.resume{
+    font-family: var(--font1);
+    font-size: 18px; 
+    padding: 0px 15px;
+    border: 2px solid var(--coffee-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 550;
+}
+
+.resume:hover{
+    color:rgba(8, 53, 136, 0.692);
+    background-color: var(--aesthetic);
+    font-weight: bolder;
+    text-shadow: 0 5px 30px rgba(0, 0, 0, 0.8);
+} 
+
+.form-input{
+    padding: 0px 5px;
+    font-size: 18px;
+    border: 2px solid var(var(--coffee-color));
+    border-radius: 5px;
+    margin: 10px 10px;
+    font-family: var(--font1);
+}
+
+.contact-left p{
+    margin: 20px 2px;
+    color: var(--blues);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h3{
+    text-decoration: solid;
+    
+}
+
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.code{
+    margin: 10px 50px;
+    max-width: 53vw;
+    min-width: 30vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.code p{
+    margin: 5px 12px;
+}
